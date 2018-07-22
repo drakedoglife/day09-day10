@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+#head {
+	text-align: center;
+	background-image: url(image/background1.jpg);
+	background-size: cover;
+	z-index: auto;
+	width: 100%;
+	
+}
