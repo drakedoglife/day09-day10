@@ -98,7 +98,8 @@ h3 {
 	margin-left: auto;
 	margin-right: auto;
 	width: 80%;
-	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	overflow: hidden;
 }
 
 .mobile,
@@ -110,27 +111,41 @@ h3 {
 	width: 450px;
 	float: left;
 	margin-bottom: 100px;
-	margin-right: 90px;
-	margin-left: 90px;
+	margin-right: 130px;
+	margin-left: 130px;
 }
 
-img {
+#section img {
 	float: left;
 	margin-right: 30px;
-	margin-bottom: 100px;
+	margin-bottom: 120px;
 }
 
-h4 {
+#section h4 {
 	margin-top: 0px;
 	margin-bottom: 0px;
+	font-size: 20px;
+	line-height: 32px;
 }
 
 #p {
 	text-align: left;
 }
 
+#p p {
+	font-size: 16px;
+	line-height: 26px;
+}
+/*section finished*/
+#banner {
+	background-image: url(image/background1.jpg);
+	width: 100%;
+	background-size: cover;
+	height: 800px;
+}
 
-
-
+.ipad {
+	float: right;
+}
 
 
