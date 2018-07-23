@@ -56,11 +56,14 @@ input {
 	height: 49px;
 	border: solid 0.5px gray;
 	border-radius: 5px;
+	margin-left: 23px;
+	background-color: transparent;
 }
 
 input[type="submit"] {
 	width: 126px;
 	height: 53px;
+	background-color: aliceblue;
 }
 /*head finished*/
 #section {
@@ -86,3 +89,45 @@ h3 {
 	margin-right: auto;
 	font-weight: lighter;
 }
+
+.icon {
+	position: relative;
+	display: flex;
+	flex-flow: row wrap;
+	margin-top: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+
+.mobile,
+.access,
+.fluid,
+.custom {
+	width: 430px;
+	flex: 4 100px;
+	position: relative;
+}
+
+#img1,
+#img2,
+#img3,
+#img4, {
+	float: left;
+	
+}
+
+h4 {
+	float: left;
+}
+
+.mobile p,
+.access p,
+.fluid p,
+.custom p {
+	float: left;
+}
+
+
+
+
