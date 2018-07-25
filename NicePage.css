@@ -308,5 +308,43 @@ img[alt="screen"] {
 	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
 }
 /*finished twoimgs*/
+#oac {
+	width: 100%;
+	text-align: center;
+	float: left;
+}
 
+#oac h3 {
+	font-size: 42px;
+	line-height: 52px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"
+}
 
+#oac .title{
+	font-size: 18px;
+	line-height: 28px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
+}
+
+.humans {
+	display: flex;
+	flex-flow: row wrap;
+	width: 55%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.humans img {
+	display: block;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 30px;
+	flex: 1;
+}
+
+.ethan {
+	background-color: #202020;
+}
+
+.ethan img {
+	border: solid 1px white;
