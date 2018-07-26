@@ -1,5 +1,12 @@
 @charset "utf-8";
 /* CSS Document */
+html, body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	min-width: 1280px;
+}
+
 #head {
 	text-align: center;
 	background-image: url(image/图层1.png);
@@ -265,7 +272,6 @@ img[alt="screen"] {
 }
 /*finished try*/
 #twoimgs {
-	float: left;
 	width: 100%;
 	margin-top: 110px;
 }
@@ -311,7 +317,8 @@ img[alt="screen"] {
 #oac {
 	width: 100%;
 	text-align: center;
-	float: left;
+	position: relative;
+	height: 1000px;
 }
 
 #oac h3 {
@@ -326,25 +333,54 @@ img[alt="screen"] {
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
 }
 
+
 .humans {
-	display: flex;
-	flex-flow: row wrap;
-	width: 55%;
-	margin-left: auto;
-	margin-right: auto;
+	box-sizing: border-box;
+	width: 970px;
+	margin: 0 auto;
 }
 
 .humans img {
-	display: block;
-	margin-left: 15px;
-	margin-right: 15px;
-	margin-bottom: 30px;
-	flex: 1;
+	display: inline-block;
+
+}
+
+.mansmargin {
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+
+.mansleft {
+	margin-right: 25px;
 }
 
 .ethan {
+	width: 470px;
+	height: 340px;
 	background-color: #202020;
+	position: absolute;
+	box-sizing: border-box;
+	padding-top: 90px;
+	left: 289px;
+	top: 286px;
+	color: white;
+	opacity: 0;
+	z-index: 2;
+	transition: opacity 0.8s;
 }
 
-.ethan img {
-	border: solid 1px white;
+.ethan:hover {
+	opacity: 0.8;
+}
+
+.ethan h4 {
+	font-size: 20px;
+	line-height: 32px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"
+}
+
+.ethan p {
+	font-size: 12px;
+	line-height: 28px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"
+}
